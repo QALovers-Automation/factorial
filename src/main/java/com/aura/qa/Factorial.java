@@ -28,7 +28,7 @@ public class Factorial {
 			log.error("We need a integer greater than 0 to generate the factorial.");
 			return;
 		}
-
+		
 		if (numberToGenerateFactorial.signum()<0) {
 			log.error("We need a positive integer to generate the factorial.");
 			return;
@@ -45,7 +45,7 @@ public class Factorial {
 		try
 		{
 			//Uncomment to bug
-			int a=23/0;
+			//int a=23/0;
 			if (integerF==null)
 				return integerF;
 			else if (integerF.equals(BigInteger.ZERO))
