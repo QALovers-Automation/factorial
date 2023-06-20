@@ -28,7 +28,7 @@ public class Factorial {
 			log.error("We need a integer greater than 0 to generate the factorial.");
 			return;
 		}
-		//Another commit
+
 		if (numberToGenerateFactorial.signum()<0) {
 			log.error("We need a positive integer to generate the factorial.");
 			return;
